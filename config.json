@@ -1,0 +1,274 @@
+{
+  "rules": [
+    {
+      "eventTypeMatcher": {
+        "actor": "",
+        "action": "",
+        "target": ""
+      },
+      "exclude": true,
+      "includeFullState": false
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "series",
+        "action": "started",
+        "target": "game"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "left",
+        "target": "series"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "rejoined",
+        "target": "series"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "game",
+        "action": "started",
+        "target": "round"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "round",
+        "action": "started",
+        "target": "freezetime"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "freezetime",
+        "action": "started",
+        "target": "timeout"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "freezetime",
+        "action": "ended",
+        "target": "timeout"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "series",
+        "action": "paused",
+        "target": "game"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "series",
+        "action": "resumed",
+        "target": "game"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "purchased",
+        "target": "item"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "dropped",
+        "target": "item"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "pickedUp",
+        "target": "item"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "round",
+        "action": "ended",
+        "target": "freezetime"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "killed",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "damaged",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "selfdamaged",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "teamdamaged",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "teamkilled",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "selfkilled",
+        "target": "player"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "completed",
+        "target": "plantBomb"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "completed",
+        "target": "defuseBomb"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "completed",
+        "target": "beginDefuseWithKit"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "completed",
+        "target": "beginDefuseWithoutKit"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "player",
+        "action": "completed",
+        "target": "explodeBomb"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "game",
+        "action": "ended",
+        "target": "round"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "team",
+        "action": "won",
+        "target": "round"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "team",
+        "action": "won",
+        "target": "game"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "team",
+        "action": "won",
+        "target": "series"
+      },
+      "exclude": false,
+      "includeFullState": true
+    },
+    {
+      "eventTypeMatcher": {
+        "actor": "series",
+        "action": "ended",
+        "target": "game"
+      },
+      "exclude": false,
+      "includeFullState": true
+    }
+  ]
+}
